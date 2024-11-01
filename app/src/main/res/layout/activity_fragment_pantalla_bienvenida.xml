@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_background">
+
+    <Button
+        android:id="@+id/buttonMenu"
+        android:layout_width="145dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="268dp"
+        android:background="@drawable/button_border"
+        android:text="Menu"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:translationX="125dp"
+        android:translationY="425dp"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonAjustes"
+        android:layout_width="145dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="196dp"
+        android:background="@drawable/button_border"
+        android:text="Ajustes"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:translationX="125dp"
+        android:translationY="175dp"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonSalir"
+        android:layout_width="145dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="124dp"
+        android:background="@drawable/button_border"
+        android:text="Salir"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:translationX="125dp"
+        android:translationY="0dp"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="386dp"
+        android:layout_height="359dp"
+        android:layout_marginEnd="8dp"
+        android:translationX="10dp"
+        android:translationY="-770dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.043"
+        app:srcCompat="@drawable/farma_app_removebg_preview" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="257dp"
+        android:layout_height="38dp"
+        android:text="Bienvenido a Farma App"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:translationX="90dp"
+        android:translationY="-810dp" />
+
+</LinearLayout>
